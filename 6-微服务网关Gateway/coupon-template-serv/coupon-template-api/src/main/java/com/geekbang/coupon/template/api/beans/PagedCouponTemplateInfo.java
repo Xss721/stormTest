@@ -12,7 +12,7 @@ import java.util.List;
 //import javax.validation.constraints.NotNull;
 
 /**
- * 创建优惠券模板
+ * 创建优惠券模板 分页获取优惠券
  */
 @Data
 @NoArgsConstructor

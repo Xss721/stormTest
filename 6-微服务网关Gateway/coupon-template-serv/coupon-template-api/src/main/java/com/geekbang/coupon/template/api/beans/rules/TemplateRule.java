@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 优惠券计算规则
+ * 优惠券计算规则  包含信息 优惠券和优惠券数量和过期时间
  * @author 姚半仙
  */
 @Data

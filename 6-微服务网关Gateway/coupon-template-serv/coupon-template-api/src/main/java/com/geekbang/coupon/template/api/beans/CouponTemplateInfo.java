@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 //import javax.validation.constraints.NotNull;
 
 /**
- * 创建优惠券模板
+ * 创建优惠券模板  优惠券模板信息
  */
 @Data
 @NoArgsConstructor

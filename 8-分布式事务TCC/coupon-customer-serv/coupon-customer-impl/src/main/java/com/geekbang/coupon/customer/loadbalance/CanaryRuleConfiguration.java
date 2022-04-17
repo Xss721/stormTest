@@ -9,7 +9,12 @@ import org.springframework.core.env.Environment;
 
 // 注意这里不要写上@Configuration注解
 public class CanaryRuleConfiguration {
-
+    /**
+     *
+     * @param environment 环境
+     * @param loadBalancerClientFactory 负载均衡客服端工长
+     * @return
+     */
     @Bean
     public ReactorLoadBalancer<ServiceInstance> reactorServiceInstanceLoadBalancer(
             Environment environment,

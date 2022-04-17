@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 封装优惠券信息
+ * 封装优惠券信息 模版ID 商品信息 用户ID 状态
  */
 @Data
 @NoArgsConstructor

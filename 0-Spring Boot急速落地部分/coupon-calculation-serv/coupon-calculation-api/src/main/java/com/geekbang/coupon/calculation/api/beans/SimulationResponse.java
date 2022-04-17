@@ -9,6 +9,7 @@ import java.util.Map;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class SimulationResponse {
 
     // 最省钱的coupon

@@ -10,7 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 @Slf4j
 public class SentinelOriginParser implements RequestOriginParser {
-
+    /**
+     * 服务容错使用的方法，对请求进行判断？
+     * @param request
+     * @return
+     */
     @Override
     public String parseOrigin(HttpServletRequest request) {
         log.info("request {}, header={}", request.getParameterMap(), request.getHeaderNames());

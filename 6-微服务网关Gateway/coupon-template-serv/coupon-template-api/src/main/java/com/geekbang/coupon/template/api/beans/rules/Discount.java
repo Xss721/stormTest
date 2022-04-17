@@ -7,6 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+ * 折扣信息，满减比例和最低消费金额
+ */
 public class Discount {
 
     // 满减 - 减掉的钱数

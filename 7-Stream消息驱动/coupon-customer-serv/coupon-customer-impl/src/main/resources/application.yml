@@ -14,9 +14,8 @@ spring:
   # 如果你的配置中心已经搭建好，并保存了这段datasource配置，那么可以注释掉
   datasource:
     # mysql数据源
-    username: root
-#    password:
-    url: jdbc:mysql://127.0.0.1:3306/geekbang_coupon_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    password: 123456
+    url: jdbc:mysql://47.106.181.236:3306/geekbang_coupon_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 连接池

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 @Configuration
-public class SeataConfiguration {
+public class SeateConfiguration {
 
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
